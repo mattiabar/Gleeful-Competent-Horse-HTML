@@ -77,8 +77,8 @@
   transform: none !important;
 }
 .rotatedVideo {
-  width: 320px;
-  height: 180px;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
 }
 .Content {
   font-size: 16px;
@@ -96,16 +96,7 @@
   text-transform: none;
   text-decoration: none;
 }
-@media(max-width: 1600px) {
-  .rotatedVideo {
-    width: 391px;
-    height: 220px;
-    box-shadow: 5px 5px 10px 0px #77b0b5;
-    border-color: var(--dl-color-primary-300);
-    border-width: 1px;
-    border-radius: var(--dl-radius-radius-radius8);
-  }
-}
+
 
 
 
