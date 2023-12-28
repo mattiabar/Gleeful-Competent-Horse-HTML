@@ -222,6 +222,13 @@
 .main-mod-container6 {
   flex: 0 0 auto;
   width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.main-mod-container7 {
+  flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -307,10 +314,15 @@
   .main-mod-video2 {
     align-self: center;
   }
+  .main-mod-select1 {
+    flex: 1;
+    width: 100%;
+    border-radius: var(--dl-radius-radius-radius4);
+  }
   .main-mod-textinput1 {
     background-color: var(--dl-color-primary-500);
   }
-  .main-mod-container6 {
+  .main-mod-container7 {
     width: auto;
     align-self: stretch;
     margin-top: var(--dl-space-space-twounits);
