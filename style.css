@@ -80,6 +80,9 @@
   transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
 }
+.video-cover {
+  object-fit: cover;
+}
 .Content {
   font-size: 16px;
   font-family: Inter;
