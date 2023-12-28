@@ -292,6 +292,10 @@
   .main-mod-video1 {
     width: 391px;
     height: 220px;
+    box-shadow: 5px 5px 10px 0px #77b0b5;
+    border-color: var(--dl-color-primary-300);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius8);
   }
   .main-mod-container5 {
     gap: var(--dl-space-space-halfunit);
