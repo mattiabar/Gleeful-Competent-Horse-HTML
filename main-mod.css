@@ -207,10 +207,6 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.main-mod-video1 {
-  width: 320px;
-  height: 180px;
-}
 .main-mod-container5 {
   flex: 0 0 auto;
   width: 100%;
@@ -288,14 +284,6 @@
     align-self: stretch;
     align-items: stretch;
     justify-content: flex-start;
-  }
-  .main-mod-video1 {
-    width: 391px;
-    height: 220px;
-    box-shadow: 5px 5px 10px 0px #77b0b5;
-    border-color: var(--dl-color-primary-300);
-    border-width: 1px;
-    border-radius: var(--dl-radius-radius-radius8);
   }
   .main-mod-container5 {
     gap: var(--dl-space-space-halfunit);
