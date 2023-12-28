@@ -287,6 +287,8 @@
   }
   .main-mod-video1 {
     box-shadow: -5px 5px 10px 0px #6bbedc;
+    border-color: var(--dl-color-primary-300);
+    border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
   }
   .main-mod-container5 {
@@ -313,6 +315,12 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     justify-content: space-between;
+  }
+  .main-mod-video3 {
+    box-shadow: 5px 5px 10px 0px #6bbedc;
+    border-color: var(--dl-color-primary-300);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius8);
   }
 }
 @media(max-width: 1200px) {
