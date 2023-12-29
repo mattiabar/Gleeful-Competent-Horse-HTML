@@ -149,7 +149,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.main-mod-container1 {
+.main-mod-container01 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -182,35 +182,52 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.main-mod-container2 {
+.main-mod-container02 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.main-mod-container3 {
+.main-mod-container03 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.main-mod-video {
-  width: 320px;
-  height: 180px;
+.main-mod-container05 {
+  display: contents;
 }
-.main-mod-container4 {
+.main-mod-container06 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.main-mod-container5 {
+.main-mod-container07 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main-mod-video1 {
+  width: 320px;
+  height: 180px;
+}
+.main-mod-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+.main-mod-container09 {
+  flex: 0 0 auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -218,20 +235,6 @@
 .main-mod-video2 {
   width: 320px;
   height: 180px;
-}
-.main-mod-container6 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-}
-.main-mod-container7 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 }
 .main-mod-video3 {
   width: 320px;
@@ -242,10 +245,6 @@
   height: 180px;
 }
 .main-mod-video5 {
-  width: 320px;
-  height: 180px;
-}
-.main-mod-video6 {
   width: 320px;
   height: 180px;
 }
@@ -265,7 +264,7 @@
   .main-mod-textinput {
     background-color: var(--dl-color-danger-700);
   }
-  .main-mod-container2 {
+  .main-mod-container02 {
     width: auto;
     align-self: stretch;
     align-items: flex-start;
@@ -273,7 +272,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     justify-content: space-between;
   }
-  .main-mod-container3 {
+  .main-mod-container03 {
     flex: 1;
     width: 988px;
     height: 494px;
@@ -281,17 +280,16 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .main-mod-video {
+  .main-mod-container04 {
     flex: 1;
-    width: 844px;
-    height: 425px;
-    align-self: flex-start;
+    width: 900px;
+    height: 506px;
     box-shadow: 0px 0px 10px 10px #6bbedc;
     border-color: var(--dl-color-primary-300);
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
   }
-  .main-mod-container4 {
+  .main-mod-container06 {
     gap: var(--dl-space-space-twounits);
     width: 394px;
     height: auto;
@@ -299,13 +297,13 @@
     align-items: stretch;
     justify-content: flex-start;
   }
-  .main-mod-video1 {
+  .main-mod-video {
     box-shadow: 0px 0px 10px 10px #6bbedc;
     border-color: var(--dl-color-primary-300);
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius8);
   }
-  .main-mod-container5 {
+  .main-mod-container07 {
     gap: var(--dl-space-space-halfunit);
     height: var(--dl-size-size-small);
     align-items: stretch;
@@ -318,14 +316,14 @@
   .main-mod-textinput1 {
     background-color: var(--dl-color-success-500);
   }
-  .main-mod-video2 {
+  .main-mod-video1 {
     align-self: center;
   }
   .main-mod-textinput2 {
     flex: 1;
     background-color: var(--dl-color-primary-500);
   }
-  .main-mod-container7 {
+  .main-mod-container09 {
     width: auto;
     align-self: stretch;
     margin-top: var(--dl-space-space-twounits);
@@ -333,7 +331,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     justify-content: space-between;
   }
-  .main-mod-video3 {
+  .main-mod-video2 {
     box-shadow: 0px 0px 10px 10px #6bbedc;
     border-color: var(--dl-color-primary-300);
     border-width: 1px;
@@ -343,11 +341,6 @@
 @media(max-width: 1200px) {
   .main-mod-header {
     align-self: stretch;
-  }
-  .main-mod-video {
-    flex: 1;
-    width: 820px;
-    height: 464px;
   }
 }
 @media(max-width: 991px) {
