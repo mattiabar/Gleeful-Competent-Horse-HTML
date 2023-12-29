@@ -251,6 +251,9 @@
     border-color: var(--dl-color-primary-300);
     border-width: 0px;
   }
+  .main-user-textinput {
+    background-color: var(--dl-color-danger-700);
+  }
   .main-user-container2 {
     width: auto;
     align-self: stretch;
