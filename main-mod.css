@@ -262,6 +262,9 @@
     border-color: var(--dl-color-primary-300);
     border-width: 0px;
   }
+  .main-mod-textinput {
+    background-color: var(--dl-color-danger-700);
+  }
   .main-mod-container2 {
     width: auto;
     align-self: stretch;
@@ -308,13 +311,13 @@
     width: 100%;
     border-radius: var(--dl-radius-radius-radius4);
   }
-  .main-mod-textinput {
+  .main-mod-textinput1 {
     background-color: var(--dl-color-success-500);
   }
   .main-mod-video2 {
     align-self: center;
   }
-  .main-mod-textinput1 {
+  .main-mod-textinput2 {
     flex: 1;
     background-color: var(--dl-color-primary-500);
   }
