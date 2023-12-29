@@ -43,6 +43,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script defer="defer" src="b2b7d5dc9191a36f4555.bundle.js"></script>
     <script defer="defer" src="webrtc-player.js"></script>
+    <script defer="defer" src="sldp-v2.25.0.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
@@ -70,9 +71,9 @@
             <button class="main-mod-login button">Login</button>
             <input
               type="button"
-              placeholder="placeholder"
-              value="ATTIVA AUDIO"
               id="audioToggle"
+              value="ATTIVA AUDIO"
+              placeholder="placeholder"
               class="input main-mod-textinput"
             />
           </div>
@@ -139,8 +140,10 @@
             <video
               id="main-video"
               src=""
-              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
-              class="main-mod-video"
+              muted=""
+              autoplay=""
+              playsinline=""
+              class="main-mod-video video-cover"
             ></video>
           </div>
           <div class="main-mod-container4">

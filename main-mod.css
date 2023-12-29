@@ -286,6 +286,10 @@
     width: 844px;
     height: 425px;
     align-self: flex-start;
+    box-shadow: 0px 0px 10px 10px #6bbedc;
+    border-color: var(--dl-color-primary-300);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius8);
   }
   .main-mod-container4 {
     gap: var(--dl-space-space-twounits);
