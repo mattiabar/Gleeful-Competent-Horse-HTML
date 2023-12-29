@@ -314,12 +314,8 @@
   .main-mod-video2 {
     align-self: center;
   }
-  .main-mod-select1 {
-    flex: 1;
-    width: 100%;
-    border-radius: var(--dl-radius-radius-radius4);
-  }
   .main-mod-textinput1 {
+    flex: 1;
     background-color: var(--dl-color-primary-500);
   }
   .main-mod-container7 {
