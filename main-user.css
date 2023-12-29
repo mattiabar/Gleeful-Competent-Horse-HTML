@@ -288,6 +288,10 @@
   .main-user-video2 {
     width: 391px;
     height: 220px;
+    box-shadow: 0px 0px 10px 10px #6bbedc;
+    border-color: var(--dl-color-primary-300);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius8);
   }
   .main-user-container5 {
     align-self: flex-start;
